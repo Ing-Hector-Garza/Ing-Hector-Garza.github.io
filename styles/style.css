@@ -1,0 +1,88 @@
+/* xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx */
+/* START EXERCICES */
+/* EXERCICE 1: */
+/* Like HTML, CSS is not a programming language.
+It's not a markup language either.
+CSS is a style sheet language.
+CSS is what you use to selectively style HTML elements
+This CSS code selects paragraph text, setting the color to red */
+/* p {
+    color: red;
+} */
+
+/* EXERCISE 2: */
+/* p,
+li,
+h1 {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+} */
+/* FINISH EXCERCISES */
+/* xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx */
+
+
+/* xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx */
+/* START FONTS AND TEXT */
+html {
+  /* font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high 
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+
+  /* DMS Serif Text */
+  font-size: 10px; /* px means "pixels": the base font siza is now 10 pixels high */
+  font-family: 'DM Serif Text', serif; /* this should be the rest of the output you got form Google Fonts */
+}
+
+/* Let's set font sizes for elements that will have text inside the HTML body h1. We'll also center the heading. */
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+/* Let's set font sizes for elements that will have text inside the HTML body h2 */
+h2{
+    font-size: 25px;
+    text-align: left;
+}
+
+/* let's set font sizes for elements that will have text inside the HTML body (<li>, and <p>). */
+p,
+li {
+    font-size: 15px;
+    /* let's expand the second ruleset (below) with settings for line height and letter spacing to make body content more readable. */
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+/* FINISH FONTS AND TEXT */
+/* xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx==========xxxxxxxxxx */
+
+
+/* CHANGING THE PAGE COLOR */
+  html {
+    background-color: #00539f;
+  }
+
+  /* STYLING THE BODY */
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+
+  /* POSITIONING AND STYLING THE MAIN PAGE TITLE */
+  h1{
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+
+
+  /* CENTERING THE IMAGE */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
